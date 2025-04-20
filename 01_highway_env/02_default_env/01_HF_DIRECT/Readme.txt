@@ -27,7 +27,7 @@ C. SPEED OPTIMIZATION FEEDBACK SCORE:
 CHANGES TO BE MADE BEFORE EXECUTION OF THE CODE: 
 Update the google drive directory locations in the line marked with the following comments:(Use Ctrl+F to search)
 # Update directory location 1 : Path to load the (0_initial_trajectory_df.pkl) pickle file saved in (01.generate_trajectories_highway)
-# Update directory location 2 : Path to save the recalibrated reward data frame(1_Hf_D_ideal_df)
+# Update directory location 2 : Path to save the HF_DIRECT recalibrated reward data frame(1_Hf_D_ideal_df) to be used as source data frame in (HF_RSM policy training)
 # Update directory location 3 : Path to save the training logs of PPO model trained with HF_DIRECT Policy 
 # Update directory location 4 : Path to save the PPO model trained with HF_DIRECT Policy(1_ppo_highway_hf_direct_ideal)
 ___________________________________________________________________________________________________________________________________________________________________
