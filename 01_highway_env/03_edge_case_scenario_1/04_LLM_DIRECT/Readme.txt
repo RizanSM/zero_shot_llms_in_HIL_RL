@@ -20,7 +20,7 @@ It calculates the final misalignment, average terminate time and the average epi
 
 CHANGES TO BE MADE BEFORE EXECUTION OF THE CODE: 
 Update the google drive directory locations in the line marked with the following comments:(Use Ctrl+F to search)
-# Update directory location 1 : Path to load the first trajectory data frame(1_trajectory_llm_d_ideal_edge_1_dff.pkl) saved in 01_Generate_Trajectories_for_Model_Testing_LLM_DIRECT_Edge_Case_1
+# Update directory location 1 : Path to load the first trajectory data frame(1_trajectory_llm_d_ideal_edge_1_df.pkl) saved in 01_Generate_Trajectories_for_Model_Testing_LLM_DIRECT_Edge_Case_1
 # Update directory location 2 : Path to load the second trajectory data frame(2_trajectory_llm_d_ideal_edge_1_df.pkl) saved in 01_Generate_Trajectories_for_Model_Testing_LLM_DIRECT_Edge_Case_1
 # Update directory location 3 : Path to load the third trajectory data frame(3_trajectory_llm_d_ideal_edge_1_df.pkl) saved in 01_Generate_Trajectories_for_Model_Testing_LLM_DIRECT_Edge_Case_1
 # Update directory location 4 : Path to load the fourth trajectory data frame(4_trajectory_llm_d_ideal_edge_1_df.pkl) saved in 01_Generate_Trajectories_for_Model_Testing_LLM_DIRECT_Edge_Case_1
