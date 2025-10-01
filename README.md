@@ -1,3 +1,5 @@
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2503.22723)
+
 # Zero-Shot LLMs in Human-in-the-Loop RL: Replacing Human Feedback for Reward Shaping
 
 This repository accompanies our research on enhancing Human-in-the-Loop Reinforcement Learning (HITL-RL) by leveraging zero-shot Large Language Models (LLMs) for reward shaping in continuous control tasks. Our key contributions include: <br>
@@ -41,8 +43,8 @@ ________________________________________________________________________________
 ### Feedback regimes
 1. HF_DIRECT — Direct human-feedback-style reward recalibration
 2. HF_RSM — Reward Shaping via a learned model trained on HF_DIRECT outputs
-3. *BIASED_HF_ ** — Aggressive (AGG) and Conservative (CON) human-feedback variants
+3. *BIASED_HF_ ** — Aggressive (AGG) and Reckless Adaptive (RAD) human-feedback variants
 4. LLM_DIRECT — Reward shaping directly from zero-shot LLM feedback
 5. LLM_HF_BF — LLM-based bias flagging over biased feedback trajectories
 
-Most notebooks include an Open in Colab badge. For LLM notebooks (LLM_DIRECT, LLM_HF_BF), select T4 GPU in Colab.
+All notebooks include an Open in Colab badge. For LLM notebooks (LLM_DIRECT, LLM_HF_BF), select T4 GPU in Colab.
