@@ -201,17 +201,18 @@ Folder: 01_Highway_Env/02_Default_Environment/04_BIASED_HF_RSM_AGG/
 Train — 01_Biased_HF_RSM_Policy_training_AGG.ipynb
 
 Update:
-(1) Load {2_BIASED_HF_DIRECT_AGG_HIGHWAY_DF.pkl}
-(2) Save PPO logs
-(3) Save PPO model {4_PPO_HIGHWAY_BIASED_HF_RSM_AGG}
+1. Load {2_BIASED_HF_DIRECT_AGG_HIGHWAY_DF.pkl}
+2. Save PPO logs
+3. Save PPO model {4_PPO_HIGHWAY_BIASED_HF_RSM_AGG}
 
 Generate tests — 02_Generate_trajectories_Biased_HF_RSM_AGG_default_highway_
-Update:
 
-(1) Load model {4_PPO_HIGHWAY_BIASED_HF_RSM_AGG}
-(2–6) Save five test DFs: 1..5_BIASED_HF_RSM_HIGHWAY_AGG_DF.pkl
+Update:
+1. (1) Load model {4_PPO_HIGHWAY_BIASED_HF_RSM_AGG}
+2. (2–6) Save five test DFs: 1..5_BIASED_HF_RSM_HIGHWAY_AGG_DF.pkl
 
 Evaluate — 03_Model_testing_Biased_HF_RSM_AGG_Default_highway_env.ipynb
+
 Update:
 (1–5) Load the five test DFs
 
@@ -219,18 +220,21 @@ Update:
 Folder: 01_Highway_Env/02_Default_Environment/05_BIASED_HF_DIRECT_RAD/
 
 Train — 01_Biased_HF_D_RAD_Policy_training.ipynb
+
 Update:
-(1) Load {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl} 
-(2) Save {3_BIASED_HF_DIRECT_RAD_HIGHWAY_DF.pkl}
-(3) Save PPO logs
-(4) Save PPO model {5_PPO_HIGHWAY_BIASED_HF_DIRECT_RAD}
+1. Load {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl}
+2. Save {3_BIASED_HF_DIRECT_RAD_HIGHWAY_DF.pkl}
+3. Save PPO logs
+4. Save PPO model {5_PPO_HIGHWAY_BIASED_HF_DIRECT_RAD}
 
 Generate tests — 02_Generate_trajectories_Biased_HF_D_RAD_default_highway_env
+
 Update:
-(1) Load model {5_PPO_HIGHWAY_BIASED_HF_DIRECT_RAD}
-(2–6) Save five test DFs: 1..5_BIASED_HF_DIRECT_HIGHWAY_RAD_DF.pkl
+1. (1) Load model {5_PPO_HIGHWAY_BIASED_HF_DIRECT_RAD}
+2. (2–6) Save five test DFs: 1..5_BIASED_HF_DIRECT_HIGHWAY_RAD_DF.pkl
 
 Evaluate — 03_Model_testing_Biased_HF_D_RAD_Default_highway_env.ipynb
+
 Update:
 (1–5) Load the five test DFs
 
@@ -238,17 +242,20 @@ Update:
 Folder: 01_Highway_Env/02_Default_Environment/06_BIASED_HF_RSM_RAD/
 
 Train — 01_Biased_HF_RSM_Policy_training_RAD.ipynb
+
 Update:
-(1) Load {3_BIASED_HF_DIRECT_RAD_HIGHWAY_DF.pkl}
-(2) Save PPO logs
-(3) Save PPO model {6_PPO_HIGHWAY_BIASED_HF_RSM_RAD}
+1. Load {3_BIASED_HF_DIRECT_RAD_HIGHWAY_DF.pkl}
+2. Save PPO logs
+3. Save PPO model {6_PPO_HIGHWAY_BIASED_HF_RSM_RAD}
 
 Generate tests — 02_Generate_trajectories_Biased_HF_RSM_RAD_default_highway_env.ipynb
+
 Update:
-(1) Load model 6_PPO_HIGHWAY_BIASED_HF_RSM_RAD
-(2–6) Save five test DFs: 1..5_BIASED_HF_RSM_HIGHWAY_RAD_DF.pkl
+1. (1) Load model 6_PPO_HIGHWAY_BIASED_HF_RSM_RAD
+2. (2–6) Save five test DFs: 1..5_BIASED_HF_RSM_HIGHWAY_RAD_DF.pkl
 
 Evaluate — 03_Model_testing_Biased_HF_RSM_RAD_Default_highway_env.ipynb
+
 Update:
 (1–5) Load the five test DFs
 
@@ -257,18 +264,21 @@ Folder: 01_Highway_Env/02_Default_Environment/07_LLM_DIRECT/
 Colab: select T4 GPU.
 
 Train — 01_LLM_D.ipynb
+
 Update:
-(1) Load 0_initial_trajectory_df.pkl
-(2) Save LLM recalibrated rewards DF 1_llm_feedback_ideal_df_with_sil_score.pkl
-(3) Save PPO logs
-(4) Save PPO model 7_PPO_HIGHWAY_LLM_DIRECT
+1. Load 0_initial_trajectory_df.pkl
+2. Save LLM recalibrated rewards DF 1_llm_feedback_ideal_df_with_sil_score.pkl
+3. Save PPO logs
+4. Save PPO model 7_PPO_HIGHWAY_LLM_DIRECT
 
 Generate tests — 02_Generate_trajectories_LLM_D_default_highway_env.ipynb
+
 Update:
-(1) Load model 7_PPO_HIGHWAY_LLM_DIRECT
-(2–6) Save five test DFs: 1..5_LLM_DIRECT_HIGHWAY_DF.pkl
+1. (1) Load model 7_PPO_HIGHWAY_LLM_DIRECT
+2. (2–6) Save five test DFs: 1..5_LLM_DIRECT_HIGHWAY_DF.pkl
 
 Evaluate — 03_Model_testing_LLM_D_Default_highway_env.ipynb
+
 Update:
 (1–5) Load the five test DFs
 
@@ -277,19 +287,22 @@ Folder: 01_Highway_Env/02_Default_Environment/08_LLM_HF_BF/
 Colab: select T4 GPU.
 
 Policy Training — 01_LLM_HF_BF.ipynb
+
 Update:
-(1) Load biased Human Feedback Data Frame 1_BIASED_HF_TRAJECTORY_DF_BIAS_FLAGGING.pkl
-(2) Save LLM bias-flagging Justification Data Frame 0_LLM_HF_BF_JUSTIFICATION.pkl
-(3) Save LLM bias-flagging Data Frame 1_LLM_HF_BF_HIGHWAY_DF.pkl
-(4) Save PPO logs
-(5) Save PPO model 8_PPO_HIGHWAY_LLM_HF_BF
+1. Load biased Human Feedback Data Frame 1_BIASED_HF_TRAJECTORY_DF_BIAS_FLAGGING.pkl
+2. Save LLM bias-flagging Justification Data Frame 0_LLM_HF_BF_JUSTIFICATION.pkl
+3. Save LLM bias-flagging Data Frame 1_LLM_HF_BF_HIGHWAY_DF.pkl
+4. Save PPO logs
+5. Save PPO model 8_PPO_HIGHWAY_LLM_HF_BF
 
 Generate tests — 02_Generate_trajectories_LLM_HF_BF_default_highway_env.ipynb
+
 Update:
-(1) Load model 8_PPO_HIGHWAY_LLM_HF_BF
-(2–6) Save five test DFs: 1..5_LLM_HF_BF_DF.pkl
+1. (1) Load model 8_PPO_HIGHWAY_LLM_HF_BF
+2. (2–6) Save five test DFs: 1..5_LLM_HF_BF_DF.pkl
 
 Evaluate — 03_Model_testing_LLM_HF_BF.ipynb
+
 Update:
 (1–5) Load the five test DFs
 
@@ -299,15 +312,17 @@ Update:
 
 Scenario: Ego starts rightmost lane @ 25 m/s; rightmost lane congested (slower vehicles); adjacent lanes faster (≈25–30 m/s).
 
-Folder: 01_Highway_Env/03_Edge_Case_Scenario_1/
+Folder: 01_Highway_Env/03_Edge_Case_Scenario_1/  <br>
 For each policy (01_HF_DIRECT, 02_BIASED_HF_DIRECT_AGG, 03_BIASED_HF_DIRECT_RAD, 04_LLM_DIRECT):
 
 Generate tests — 01_Generate_Trajectories_for_Model_Testing_*_Edge_Case_1.ipynb
+
 Update:
-(1) Load the corresponding PPO model from Default training (e.g., 1_PPO_HIGHWAY_HF_DIRECT)
-(2–6) Save five test DFs: *_edge_1_df.pkl
+1. (1) Load the corresponding PPO model from Default training (e.g., 1_PPO_HIGHWAY_HF_DIRECT)
+2. (2–6) Save five test DFs: *_edge_1_df.pkl
 
 Evaluate — 02_Model_Testing_*_Edge_Case_1.ipynb
+
 Update:
 (1–5) Load the five test DFs
 
@@ -317,16 +332,19 @@ Update:
 
 Scenario: Ego starts middle lane (2) @ 25 m/s; middle lane congested; adjacent lanes faster (≈25–30 m/s).
 
-Folder: 01_Highway_Env/04_Edge_Case_Scenario_2/
+Folder: 01_Highway_Env/04_Edge_Case_Scenario_2/ <br>
 For each policy (01_HF_DIRECT, 02_BIASED_HF_DIRECT_AGG, 03_BIASED_HF_DIRECT_RAD, 04_LLM_DIRECT):
 
 Generate tests — 01_Generate_Trajectories_for_Model_Testing_*_Edge_Case_2.ipynb
+
 Update:
-(1) Load the corresponding PPO model from Default training
-(2–6) Save five test DFs: *_edge_2_df.pkl
+1. (1) Load the corresponding PPO model from Default training
+2. (2–6) Save five test DFs: *_edge_2_df.pkl
 
 Evaluate — 02_Model_Testing_*_Edge_Case_2.ipynb
-Update: (1–5) Load the five test DFs
+
+Update: 
+(1–5) Load the five test DFs
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Run paths — Reacher
@@ -335,47 +353,47 @@ Folder: 02_Reacher_Env/
 The Reacher workflows mirror Highway:
 Generate trajectories — 01_Generate_Trajectories/01_Generating_Reacher_Trajectories.ipynb
 Update:
-(1) Save training logs
-(2) Save PPO model (initial)
-(3) Load PPO model (initial)
-(4) Save initial trajectory DF (CSV)
-(5) Save initial trajectory DF (PKL)
+1. Save training logs
+2. Save PPO model (initial)
+3. Load PPO model (initial)
+4. Save initial trajectory DF (CSV)
+5. Save initial trajectory DF (PKL)
 
-Train / Generate tests / Evaluate for:
-Default Environment testing : 02_Default_Environment/
-01_HF_DIRECT_REACHER
-02_HF_D_REACHER_AGG
-03_HF_D_REACHER_RAD
-04_LLM_DIRECT_REACHER (T4 GPU)
-05_LLM_HF_BF_REACHER (T4 GPU)
+Train / Generate tests / Evaluate for:                   <br>
+Default Environment testing : 02_Default_Environment/    <br>
+01_HF_DIRECT_REACHER                                     <br>
+02_HF_D_REACHER_AGG                                      <br>
+03_HF_D_REACHER_RAD                                      <br>
+04_LLM_DIRECT_REACHER (T4 GPU)                           <br>
+05_LLM_HF_BF_REACHER (T4 GPU)                            <br>
 
-Each subfolder contains:
-01_Policy_Training_*.ipynb (update load/save paths, run to train PPO)
-02_Generate_Trajectories_for_Model_Testing_*.ipynb (save 5 test DFs)
-03_Model_Testing_*.ipynb (load those 5 DFs and compute metrics)
+Each subfolder contains:                                 <br>
+01_Policy_Training_*.ipynb (update load/save paths, run to train PPO)   <br>
+02_Generate_Trajectories_for_Model_Testing_*.ipynb (save 5 test DFs)    <br>
+03_Model_Testing_*.ipynb (load those 5 DFs and compute metrics)         <br>
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Bias value guide (Highway)
 
-Use these when setting/adjusting human feedback in HF notebooks:
-A. Lane change feedback score
-1: No lane change
-2: One lane change
-3: Two lane changes
-4: Three lane changes
+Use these when setting/adjusting human feedback in HF notebooks:  <br>
+A. Lane change feedback score  <br>
+1: No lane change              <br>
+2: One lane change             <br>
+3: Two lane changes            <br>
+4: Three lane changes          <br>
 
-B. Collision avoidance feedback score
-5: Potential risk — avoided by slowing down
-6: Potential risk — avoided by speeding up
-7: Potential risk — avoided by lane change
-8: Immediate risk — emergency avoidance
-9: Safe path
+B. Collision avoidance feedback score         <br>
+5: Potential risk — avoided by slowing down   <br>
+6: Potential risk — avoided by speeding up    <br>
+7: Potential risk — avoided by lane change    <br>
+8: Immediate risk — emergency avoidance       <br>
+9: Safe path                                  <br>
 
-C. Speed optimization feedback score
-10–12: Low traffic density (High / Moderate / Low speed optimization)
-13–15: Moderate density (High / Moderate / Low)
-16–18: High density (High / Moderate / Low)
+C. Speed optimization feedback score                                      <br>
+10–12: Low traffic density (High / Moderate / Low speed optimization)     <br>
+13–15: Moderate density (High / Moderate / Low)                           <br>
+16–18: High density (High / Moderate / Low)                               <br>
 
 Each policy’s Readme.txt lists exactly which paths to update (e.g., “Update directory location 1–4”). Use those as your checklist inside the notebook.
 
