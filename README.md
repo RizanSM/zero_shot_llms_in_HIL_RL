@@ -78,7 +78,7 @@ ________________________________________________________________________________
 │ &ensp; │  &emsp;   ├── 03_HF_D_REACHER_RAD/   ...        
 │ &ensp; │  &emsp;   ├── 04_LLM_DIRECT_REACHER/ ...    <br>
 │ &ensp; │  &emsp;   ├── 05_LLM_HF_BF_REACHER/  ...    <br>
-| &ensp; └── Readme.md   <br>
+| &ensp; └── Readme.md
 └── README.md   <br>
 
 Each folder contains a concise Readme.txt listing what to change before running (search for Update directory location X in each notebook).
