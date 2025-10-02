@@ -52,7 +52,7 @@ All notebooks include an Open in Colab badge. For LLM notebooks (LLM_DIRECT, LLM
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Repo layout (abridged)
-.
+
 ├── 01_Highway_Env
 │   ├── 01_Generate_Trajectories
 │   │   ├── 01_Generate_Trajectories_Highway.ipynb
@@ -114,17 +114,18 @@ ________________________________________________________________________________
 #### 1) Initial trajectories
 Notebook: 01_Highway_Env/01_Generate_Trajectories/01_Generate_Trajectories_Highway.ipynb
 Update before running:
-(1) Save training logs
-(2) Save PPO model (initial) {0_PPO_HIGHWAY_INITIAL_TRAINING}
-(3) Load PPO model (initial) {0_PPO_HIGHWAY_INITIAL_TRAINING}
-(4) Save initial trajectory dataframe (CSV) {0_INITIAL_TRAJECTORY_HIGHWAY_DF.csv}
-(5) Save initial trajectory dataframe (PKL) {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl}
+1. Save training logs
+2. Save PPO model (initial) {0_PPO_HIGHWAY_INITIAL_TRAINING}
+3. Load PPO model (initial) {0_PPO_HIGHWAY_INITIAL_TRAINING}
+4. Save initial trajectory dataframe (CSV) {0_INITIAL_TRAJECTORY_HIGHWAY_DF.csv}
+5. Save initial trajectory dataframe (PKL) {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl}
 
 #### 2) Biased trajectories for bias-flagging
 Notebook: 01_Highway_env/01_Generate_Trajectories/02_Generate_Trajectories_for_Bias_Flagging_Highway.ipynb
+
 Update:
-(1) Load trajectory_df.pkl from step A-1
-(2) Save biased trajectory dataframe (PKL) [1_BIASED_HF_TRAJECTORY_DF_BIAS_FLAGGING.pkl] for later LLM bias-flagging
+1. Load trajectory_df.pkl from step A-1
+2. Save biased trajectory dataframe (PKL) [1_BIASED_HF_TRAJECTORY_DF_BIAS_FLAGGING.pkl] for later LLM bias-flagging
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
