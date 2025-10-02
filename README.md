@@ -52,58 +52,34 @@ All notebooks include an Open in Colab badge. For LLM notebooks (LLM_DIRECT, LLM
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Repo layout (abridged)
-.
-├── 01_highway_env
-│   ├── 01_generate_trajectories
-│   │   ├── 01_generate_trajectories_highway.ipynb
-│   │   ├── 02_generate_trajectories_for_bias_flagging_highway.ipynb
-│   │   └── Readme.txt
-│   ├── 02_default_env
-│   │   ├── 01_HF_DIRECT/ ... (train → gen tests → evaluate)
-│   │   ├── 02_HF_RSM/    ... (train → gen tests → evaluate)
-│   │   ├── 03_BIASED_HF_D_AGG/      ...
-│   │   ├── 04_BIASED_HF_RSM_AGG/    ...
-│   │   ├── 05_BIASED_HF_D_CON/      ...
-│   │   ├── 06_BIASED_HF_RSM_CON/    ...
-│   │   ├── 07_LLM_DIRECT/           ...
-│   │   └── 08_LLM_HF_BF/            ...
-│   ├── 03_edge_case_scenario_1/ (HF_DIRECT, BIASED_AGG, BIASED_CON, LLM_DIRECT)
-│   └── 04_edge_case_scenario_2/ (HF_DIRECT, BIASED_AGG, BIASED_CON, LLM_DIRECT)
-├── 02_reacher_env
-│   ├── 01_generating_trajectories/01_generating_trajectories_reacher.ipynb
-│   ├── 02_HF_DIRECT/ ... (train → gen tests → evaluate)
-│   ├── 03_BIASED_HF_D_AGG/ ...
-│   ├── 04_BIASED_HF_D_CON/ ...
-│   ├── 05_LLM_DIRECT/ ...
-│   └── 06_LLM_HF_BF/ ...
-└── README.md
 
-├── 01_Highway_Env
+
+├── 01_Highway_Env <br />
 │   ├── 01_Generate_Trajectories
-│   │   ├── 01_Generate_Trajectories_Highway.ipynb
-│   │   ├── 02_Generate_Trajectories_for_Bias_Flagging_Highway.ipynb
-│   │   └── Readme.md
-│   ├── 02_Default_Environment
-│   │   ├── 01_HF_DIRECT/ ... (train → gen tests → evaluate)
-│   │   ├── 02_HF_RSM/    ... (train → gen tests → evaluate)
-│   │   ├── 03_BIASED_HF_DIRECT_AGG/      ...
-│   │   ├── 04_BIASED_HF_RSM_AGG/    ...
-│   │   ├── 05_BIASED_HF_DIRECT_RAD/      ...
-│   │   ├── 06_BIASED_HF_RSM_RAD/    ...
-│   │   ├── 07_LLM_DIRECT/           ...
-│   │   └── 08_LLM_HF_BF/            ...
-│   ├── 03_Edge_Case_Scenario_1/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)
-│   └── 04_Edge_Case_Scenario_2/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)
-├── 02_Reacher_Env
-│   ├── 01_Generate_Trajectories/01_Generating_Reacher_Trajectories.ipynb
-│   ├── 02_Default_Environment
-│   │   ├── 01_HF_DIRECT_REACHER/ ... (train → gen tests → evaluate)
-│   │   ├── 02_HF_D_REACHER_AGG/ ...
-│   │   ├── 03_HF_D_REACHER_RAD/ ...
-│   │   ├── 04_LLM_DIRECT_REACHER/ ...
-│   │   ├── 05_LLM_HF_BF_REACHER/ ...
-|   └── Readme.md
-└── README.md
+│   │   ├── 01_Generate_Trajectories_Highway.ipynb <br />
+│   │   ├── 02_Generate_Trajectories_for_Bias_Flagging_Highway.ipynb <br />
+│   │   └── Readme.md <br />
+│   ├── 02_Default_Environment  <br />
+│   │   ├── 01_HF_DIRECT/ ... (train → gen tests → evaluate)  <br />
+│   │   ├── 02_HF_RSM/    ... (train → gen tests → evaluate)  <br />
+│   │   ├── 03_BIASED_HF_DIRECT_AGG/      ...    <br />
+│   │   ├── 04_BIASED_HF_RSM_AGG/         ...    <br />
+│   │   ├── 05_BIASED_HF_DIRECT_RAD/      ...    <br />
+│   │   ├── 06_BIASED_HF_RSM_RAD/         ...    <br />
+│   │   ├── 07_LLM_DIRECT/                ...    <br />
+│   │   └── 08_LLM_HF_BF/                 ...    <br />
+│   ├── 03_Edge_Case_Scenario_1/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br />
+│   └── 04_Edge_Case_Scenario_2/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br />
+├── 02_Reacher_Env  <br />
+│   ├── 01_Generate_Trajectories/01_Generating_Reacher_Trajectories.ipynb   <br />
+│   ├── 02_Default_Environment  <br />
+│   │   ├── 01_HF_DIRECT_REACHER/  ... (train → gen tests → evaluate)   <br />
+│   │   ├── 02_HF_D_REACHER_AGG/   ...    <br />
+│   │   ├── 03_HF_D_REACHER_RAD/   ...    <br />    
+│   │   ├── 04_LLM_DIRECT_REACHER/ ...    <br />
+│   │   ├── 05_LLM_HF_BF_REACHER/  ...    <br />
+|   └── Readme.md   <br />
+└── README.md   <br />
 
 Each folder contains a concise Readme.txt listing what to change before running (search for Update directory location X in each notebook).
 
