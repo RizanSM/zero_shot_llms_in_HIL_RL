@@ -71,15 +71,15 @@ ________________________________________________________________________________
 │ &ensp; ├── 03_Edge_Case_Scenario_1/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br>
 │ &ensp; └── 04_Edge_Case_Scenario_2/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br>
 ├── 02_Reacher_Env  <br>
-│ &ensp; ├── 01_Generate_Trajectories/01_Generating_Reacher_Trajectories.ipynb   <br />
-│ &ensp; ├── 02_Default_Environment  <br />
-│ &ensp; │      ├── 01_HF_DIRECT_REACHER/  ... (train → gen tests → evaluate)   <br />
-│ &ensp; │      ├── 02_HF_D_REACHER_AGG/   ...    <br />
-│ &ensp; │      ├── 03_HF_D_REACHER_RAD/   ...    <br />    
-│ &ensp; │      ├── 04_LLM_DIRECT_REACHER/ ...    <br />
-│ &ensp; │      ├── 05_LLM_HF_BF_REACHER/  ...    <br />
-| &ensp; └── Readme.md   <br />
-└── README.md   <br />
+│ &ensp; ├── 01_Generate_Trajectories/01_Generating_Reacher_Trajectories.ipynb   <br>
+│ &ensp; ├── 02_Default_Environment  <br>
+│ &ensp; │  &emsp;   ├── 01_HF_DIRECT_REACHER/  ... (train → gen tests → evaluate)   <br>
+│ &ensp; │  &emsp;   ├── 02_HF_D_REACHER_AGG/   ...    <br>
+│ &ensp; │  &emsp;   ├── 03_HF_D_REACHER_RAD/   ...    <br>    
+│ &ensp; │  &emsp;   ├── 04_LLM_DIRECT_REACHER/ ...    <br>
+│ &ensp; │  &emsp;   ├── 05_LLM_HF_BF_REACHER/  ...    <br>
+| &ensp; └── Readme.md   <br>
+└── README.md   <br>
 
 Each folder contains a concise Readme.txt listing what to change before running (search for Update directory location X in each notebook).
 
