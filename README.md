@@ -75,7 +75,7 @@ ________________________________________________________________________________
 │ &ensp; ├── 02_Default_Environment  <br>
 │ &ensp; │  &emsp;   ├── 01_HF_DIRECT_REACHER/  ... (train → gen tests → evaluate)   <br>
 │ &ensp; │  &emsp;   ├── 02_HF_D_REACHER_AGG/   ...    <br>
-│ &ensp; │  &emsp;   ├── 03_HF_D_REACHER_RAD/   ...    <br>    
+│ &ensp; │  &emsp;   ├── 03_HF_D_REACHER_RAD/   ...        
 │ &ensp; │  &emsp;   ├── 04_LLM_DIRECT_REACHER/ ...    <br>
 │ &ensp; │  &emsp;   ├── 05_LLM_HF_BF_REACHER/  ...    <br>
 | &ensp; └── Readme.md   <br>
