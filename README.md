@@ -56,28 +56,28 @@ ________________________________________________________________________________
 
 ├── 01_Highway_Env <br />
 │   ├── 01_Generate_Trajectories
-│   │   ├── 01_Generate_Trajectories_Highway.ipynb <br />
-│   │   ├── 02_Generate_Trajectories_for_Bias_Flagging_Highway.ipynb <br />
-│   │   └── Readme.md <br />
+│   │     ├── 01_Generate_Trajectories_Highway.ipynb <br />
+│   │     ├── 02_Generate_Trajectories_for_Bias_Flagging_Highway.ipynb <br />
+│   │     └── Readme.md <br />
 │   ├── 02_Default_Environment  <br />
-│   │   ├── 01_HF_DIRECT/ ... (train → gen tests → evaluate)  <br />
-│   │   ├── 02_HF_RSM/    ... (train → gen tests → evaluate)  <br />
-│   │   ├── 03_BIASED_HF_DIRECT_AGG/      ...    <br />
-│   │   ├── 04_BIASED_HF_RSM_AGG/         ...    <br />
-│   │   ├── 05_BIASED_HF_DIRECT_RAD/      ...    <br />
-│   │   ├── 06_BIASED_HF_RSM_RAD/         ...    <br />
-│   │   ├── 07_LLM_DIRECT/                ...    <br />
-│   │   └── 08_LLM_HF_BF/                 ...    <br />
+│   │     ├── 01_HF_DIRECT/ ... (train → gen tests → evaluate)  <br />
+│   │     ├── 02_HF_RSM/    ... (train → gen tests → evaluate)  <br />
+│   │     ├── 03_BIASED_HF_DIRECT_AGG/      ...    <br />
+│   │     ├── 04_BIASED_HF_RSM_AGG/         ...    <br />
+│   │     ├── 05_BIASED_HF_DIRECT_RAD/      ...    <br />
+│   │     ├── 06_BIASED_HF_RSM_RAD/         ...    <br />
+│   │     ├── 07_LLM_DIRECT/                ...    <br />
+│   │     └── 08_LLM_HF_BF/                 ...    <br />
 │   ├── 03_Edge_Case_Scenario_1/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br />
 │   └── 04_Edge_Case_Scenario_2/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br />
 ├── 02_Reacher_Env  <br />
 │   ├── 01_Generate_Trajectories/01_Generating_Reacher_Trajectories.ipynb   <br />
 │   ├── 02_Default_Environment  <br />
-│   │   ├── 01_HF_DIRECT_REACHER/  ... (train → gen tests → evaluate)   <br />
-│   │   ├── 02_HF_D_REACHER_AGG/   ...    <br />
-│   │   ├── 03_HF_D_REACHER_RAD/   ...    <br />    
-│   │   ├── 04_LLM_DIRECT_REACHER/ ...    <br />
-│   │   ├── 05_LLM_HF_BF_REACHER/  ...    <br />
+│   │      ├── 01_HF_DIRECT_REACHER/  ... (train → gen tests → evaluate)   <br />
+│   │      ├── 02_HF_D_REACHER_AGG/   ...    <br />
+│   │      ├── 03_HF_D_REACHER_RAD/   ...    <br />    
+│   │      ├── 04_LLM_DIRECT_REACHER/ ...    <br />
+│   │      ├── 05_LLM_HF_BF_REACHER/  ...    <br />
 |   └── Readme.md   <br />
 └── README.md   <br />
 
