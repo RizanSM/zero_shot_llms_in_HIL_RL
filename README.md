@@ -100,10 +100,10 @@ ________________________________________________________________________________
 
 To avoid editing many lines, define a base block up top and derive paths:
 
-BASE_DIR = "/content/drive/MyDrive/data_rp1"
-LOGS    = f"{BASE_DIR}/0_log_dir"
-MODELS  = f"{BASE_DIR}/1_trained_models"
-TRAJ    = f"{BASE_DIR}/2_trajectories"
+1. BASE_DIR = "/content/drive/MyDrive/data_rp1"
+2. LOGS    = f"{BASE_DIR}/0_log_dir"
+3. MODELS  = f"{BASE_DIR}/1_trained_models"
+4. TRAJ    = f"{BASE_DIR}/2_trajectories"
 
 Then set each Update directory location X to a path built from these constants.
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -135,35 +135,41 @@ Update:
 Folder: 01_highway_env/02_default_env/01_HF_DIRECT/
 
 Train — 01_HF_DIRECT_Policy_Training.ipynb
+
 Update:
-(1) Load initial {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl} 
-(2) Save Ideal feedback data frame {1_HF_DIRECT_HIGHWAY_DF.pkl}
-(3) Save PPO training logs
-(4) Save PPO model {1_PPO_HIGHWAY_HF_DIRECT.zip}
+1. Load initial {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl}
+2. Save Ideal feedback data frame {1_HF_DIRECT_HIGHWAY_DF.pkl}
+3. Save PPO training logs
+4. Save PPO model {1_PPO_HIGHWAY_HF_DIRECT.zip}
 
 Generate tests — 02_Generate_Trajectories_HF_D_default_highway_env.ipynb
-Update:
-(1) Load model {1_PPO_HIGHWAY_HF_DIRECT}
-(2–6) Save five test DFs: 1..5_HF_DIRECT_HIGHWAY_DF.pkl
 
-Evaluate — 03_Model_Testing_HF_D_Default_highway_env.ipynb
+Update:
+1. (1) Load model {1_PPO_HIGHWAY_HF_DIRECT}
+2. (2–6) Save five test DFs: 1..5_HF_DIRECT_HIGHWAY_DF.pkl
+
+Evaluate — 03_Model_Testing_HF_D_Default_highway_env.ipynb <br>
+
 Update: (1–5) Load the five test DFs
 
 #### 2) HF_RSM — Learned Reward Shaping Model (Ideal)
 Folder: 01_Highway_Env/02_Default_Environment/02_HF_RSM/
 
 Train — 01_HF_RSM_Policy_training.ipynb
+
 Update:
-(1) Load {1_HF_DIRECT_HIGHWAY_DF.pkl}
-(2) Save PPO logs
-(3) Save PPO model {2_PPO_HIGHWAY_HF_RSM}
+1. Load {1_HF_DIRECT_HIGHWAY_DF.pkl}
+2. Save PPO logs
+3. Save PPO model {2_PPO_HIGHWAY_HF_RSM}
 
 Generate tests — 02_Generate_trajectories_HF_RSM_default_highway_env.ipynb
+
 Update:
-(1) Load model {2_PPO_HIGHWAY_HF_RSM}
-(2–6) Save five test DFs: 1..5_HF_RSM_HIGHWAY_DF.pkl
+1. (1) Load model {2_PPO_HIGHWAY_HF_RSM}
+2. (2–6) Save five test DFs: 1..5_HF_RSM_HIGHWAY_DF.pkl
 
 Evaluate — 03_Model_testing_HF_RSM_Default_highway_env.ipynb
+
 Update:
 (1–5) Load the five test DFs
 
@@ -171,18 +177,21 @@ Update:
 Folder: 01_Highway_Env/02_Default_Environment/03_BIASED_HF_DIRECT_AGG/
 
 Train — 01_Biased_HF_D_AGG_Policy_training.ipynb
+
 Update:
-(1) Load {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl} 
-(2) Save Biased feeback data frame {2_BIASED_HF_DIRECT_AGG_HIGHWAY_DF.pkl}
-(3) Save PPO logs
-(4) Save PPO model {3_PPO_HIGHWAY_BIASED_HF_DIRECT_AGG}
+1. Load {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl}
+2. Save Biased feeback data frame {2_BIASED_HF_DIRECT_AGG_HIGHWAY_DF.pkl}
+3. Save PPO logs
+4. Save PPO model {3_PPO_HIGHWAY_BIASED_HF_DIRECT_AGG}
 
 Generate tests — 02_Generate_trajectories_biased_HF_D_AGG_default_highway_env.ipynb
+
 Update:
-(1) Load model {3_PPO_HIGHWAY_BIASED_HF_DIRECT_AGG}
-(2–6) Save five test DFs: 1..5_BIASED_HF_DIRECT_HIGHWAY_AGG_DF.pkl
+1. (1) Load model {3_PPO_HIGHWAY_BIASED_HF_DIRECT_AGG}
+2. (2–6) Save five test DFs: 1..5_BIASED_HF_DIRECT_HIGHWAY_AGG_DF.pkl
 
 Evaluate — 03_Model_testing_Biased_HF_D_AGG_Default_highway_env.ipynb
+
 Update:
 (1–5) Load the five test DFs
 
@@ -190,6 +199,7 @@ Update:
 Folder: 01_Highway_Env/02_Default_Environment/04_BIASED_HF_RSM_AGG/
 
 Train — 01_Biased_HF_RSM_Policy_training_AGG.ipynb
+
 Update:
 (1) Load {2_BIASED_HF_DIRECT_AGG_HIGHWAY_DF.pkl}
 (2) Save PPO logs
