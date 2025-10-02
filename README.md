@@ -54,23 +54,23 @@ ________________________________________________________________________________
 ## Repo layout (abridged)
 
 
-├── 01_Highway_Env <br />
+├── 01_Highway_Env <br>
 │ &ensp; ├── 01_Generate_Trajectories  <br>
-│ &ensp; │ &emsp; ├── 01_Generate_Trajectories_Highway.ipynb <br />
-│ &ensp; │ &emsp; ├── 02_Generate_Trajectories_for_Bias_Flagging_Highway.ipynb <br />
-│ &ensp; │ &emsp; └── Readme.md <br />
-│ &ensp; ├── 02_Default_Environment  <br />
-│ &ensp; │     ├── 01_HF_DIRECT/ ... (train → gen tests → evaluate)  <br />
-│ &ensp; │     ├── 02_HF_RSM/    ... (train → gen tests → evaluate)  <br />
-│ &ensp; │     ├── 03_BIASED_HF_DIRECT_AGG/      ...    <br />
-│ &ensp; │     ├── 04_BIASED_HF_RSM_AGG/         ...    <br />
-│ &ensp; │     ├── 05_BIASED_HF_DIRECT_RAD/      ...    <br />
-│ &ensp; │     ├── 06_BIASED_HF_RSM_RAD/         ...    <br />
-│ &ensp; │     ├── 07_LLM_DIRECT/                ...    <br />
-│ &ensp; │     └── 08_LLM_HF_BF/                 ...    <br />
-│ &ensp; ├── 03_Edge_Case_Scenario_1/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br />
-│ &ensp; └── 04_Edge_Case_Scenario_2/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br />
-├── 02_Reacher_Env  <br />
+│ &ensp; │  &emsp;  ├── 01_Generate_Trajectories_Highway.ipynb <br>
+│ &ensp; │  &emsp;  ├── 02_Generate_Trajectories_for_Bias_Flagging_Highway.ipynb <br>
+│ &ensp; │  &emsp;  └── Readme.md <br>
+│ &ensp; ├── 02_Default_Environment  <br>
+│ &ensp; │  &emsp;  ├── 01_HF_DIRECT/ ... (train → gen tests → evaluate)  <br>
+│ &ensp; │  &emsp;  ├── 02_HF_RSM/    ... (train → gen tests → evaluate)  <br>
+│ &ensp; │  &emsp;  ├── 03_BIASED_HF_DIRECT_AGG/      ...    <br>
+│ &ensp; │  &emsp;  ├── 04_BIASED_HF_RSM_AGG/         ...    <br>
+│ &ensp; │  &emsp;  ├── 05_BIASED_HF_DIRECT_RAD/      ...    <br>
+│ &ensp; │  &emsp;  ├── 06_BIASED_HF_RSM_RAD/         ...    <br>
+│ &ensp; │  &emsp;  ├── 07_LLM_DIRECT/                ...    <br>
+│ &ensp; │  &emsp;  └── 08_LLM_HF_BF/                 ...    <br>
+│ &ensp; ├── 03_Edge_Case_Scenario_1/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br>
+│ &ensp; └── 04_Edge_Case_Scenario_2/ (HF_DIRECT, BIASED_AGG, BIASED_RAD, LLM_DIRECT)  <br>
+├── 02_Reacher_Env  <br>
 │ &ensp; ├── 01_Generate_Trajectories/01_Generating_Reacher_Trajectories.ipynb   <br />
 │ &ensp; ├── 02_Default_Environment  <br />
 │ &ensp; │      ├── 01_HF_DIRECT_REACHER/  ... (train → gen tests → evaluate)   <br />
