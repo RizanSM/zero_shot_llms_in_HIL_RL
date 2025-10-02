@@ -401,9 +401,12 @@ ________________________________________________________________________________
 
 ## Outputs & metrics
 
-A. Training logs → .../0_log_dir/.../monitor.csv (TensorBoard / reward curves)
+A. Training logs → .../0_log_dir/.../monitor.csv (TensorBoard / reward curves)    
+
 B. Models → .../1_trained_models/<model_name>
+
 C. Trajectories → .../2_trajectories/.../*.pkl and *.csv
+
 D. Evaluation metrics (from 03_Model_Testing_*.ipynb):
 1. Final Misalignment(FMA)
 2. Average Terminate Time(ATT)
@@ -427,14 +430,15 @@ ________________________________________________________________________________
 Built on: Stable-Baselines3, highway-v0, Reacher-v5
 
 Citation:
-@misc{rizan2025-zeroshot-hilrl,
-  title     = {Zero-shot LLMs in Human-in-the-Loop RL},
-  author    = {Mohammad Saif Nazir and Chayan Banerjee},
-  year      = {2025},
-  url       = {https://github.com/RizanSM/zero_shot_llms_in_HIL_RL/tree/main},
-  version   = {v1.0.0},
-  urldate   = {2025-10-02},
-  note      = {GitHub repository}
+
+@misc{rizan2025-zeroshot-hilrl,                                                       <br>
+  title     = {Zero-shot LLMs in Human-in-the-Loop RL},                               <br>
+  author    = {Mohammad Saif Nazir and Chayan Banerjee},                              <br>
+  year      = {2025},                                                                 <br>
+  url       = {https://github.com/RizanSM/zero_shot_llms_in_HIL_RL/tree/main},        <br>
+  version   = {v1.0.0},                                                               <br>
+  urldate   = {2025-10-02},                                                           <br>
+  note      = {GitHub repository}                                                     <br>
 }
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
