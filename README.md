@@ -110,9 +110,9 @@ ________________________________________________________________________________
 
 ## Run paths — Highway
 
-### A) Generate trajectories
+## A) Generate trajectories
 
-#### 1) Initial trajectories
+### 1) Initial trajectories
 Notebook: 01_Highway_Env/01_Generate_Trajectories/01_Generate_Trajectories_Highway.ipynb
 Update before running:
 1. Save training logs
@@ -121,7 +121,7 @@ Update before running:
 4. Save initial trajectory dataframe (CSV) {0_INITIAL_TRAJECTORY_HIGHWAY_DF.csv}
 5. Save initial trajectory dataframe (PKL) {0_INITIAL_TRAJECTORY_HIGHWAY_DF.pkl}
 
-#### 2) Biased trajectories for bias-flagging
+### 2) Biased trajectories for bias-flagging
 Notebook: 01_Highway_env/01_Generate_Trajectories/02_Generate_Trajectories_for_Bias_Flagging_Highway.ipynb
 
 Update:
@@ -130,8 +130,8 @@ Update:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### B) Default environment
-#### 1) HF_DIRECT — Ideal
+## B) Default environment
+### 1) HF_DIRECT — Ideal
 Folder: 01_highway_env/02_default_env/01_HF_DIRECT/
 
 Train — 01_HF_DIRECT_Policy_Training.ipynb
@@ -154,7 +154,7 @@ Update: (1–5) Load the five test DFs
 
 
 
-#### 2) HF_RSM — Learned Reward Shaping Model (Ideal)
+### 2) HF_RSM — Learned Reward Shaping Model (Ideal)
 Folder: 01_Highway_Env/02_Default_Environment/02_HF_RSM/
 
 Train — 01_HF_RSM_Policy_training.ipynb
@@ -177,7 +177,7 @@ Update:
 
 
 
-#### 3) BIASED_HF_D_AGG — Aggressive (Direct feedback)
+### 3) BIASED_HF_D_AGG — Aggressive (Direct feedback)
 Folder: 01_Highway_Env/02_Default_Environment/03_BIASED_HF_DIRECT_AGG/
 
 Train — 01_Biased_HF_D_AGG_Policy_training.ipynb
@@ -201,7 +201,7 @@ Update:
 
 
 
-#### 4) BIASED_HF_RSM_AGG — Aggressive (Learned)
+### 4) BIASED_HF_RSM_AGG — Aggressive (Learned)
 Folder: 01_Highway_Env/02_Default_Environment/04_BIASED_HF_RSM_AGG/
 
 Train — 01_Biased_HF_RSM_Policy_training_AGG.ipynb
@@ -224,7 +224,7 @@ Update:
 
 
 
-#### 5) BIASED_HF_D_RAD — Reckless Adaptive (Direct feedback)
+### 5) BIASED_HF_D_RAD — Reckless Adaptive (Direct feedback)
 Folder: 01_Highway_Env/02_Default_Environment/05_BIASED_HF_DIRECT_RAD/
 
 Train — 01_Biased_HF_D_RAD_Policy_training.ipynb
@@ -248,7 +248,7 @@ Update:
 
 
 
-#### 6) BIASED_HF_RSM_RAD — Reckless Adaptive (Learned)
+### 6) BIASED_HF_RSM_RAD — Reckless Adaptive (Learned)
 Folder: 01_Highway_Env/02_Default_Environment/06_BIASED_HF_RSM_RAD/
 
 Train — 01_Biased_HF_RSM_Policy_training_RAD.ipynb
@@ -271,7 +271,7 @@ Update:
 
 
 
-#### 7) LLM_DIRECT
+### 7) LLM_DIRECT
 Folder: 01_Highway_Env/02_Default_Environment/07_LLM_DIRECT/
 Colab: select T4 GPU.
 
@@ -296,7 +296,7 @@ Update:
 
 
 
-#### 8) LLM_HF_BF — Bias flagging
+### 8) LLM_HF_BF — Bias flagging
 Folder: 01_Highway_Env/02_Default_Environment/08_LLM_HF_BF/
 Colab: select T4 GPU.
 
@@ -322,7 +322,7 @@ Update:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### C) Edge case scenario 1
+## C) Edge case scenario 1
 
 Scenario: Ego starts rightmost lane @ 25 m/s; rightmost lane congested (slower vehicles); adjacent lanes faster (≈25–30 m/s).
 
@@ -342,7 +342,7 @@ Update:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### D) Edge case scenario 2
+## D) Edge case scenario 2
 
 Scenario: Ego starts middle lane (2) @ 25 m/s; middle lane congested; adjacent lanes faster (≈25–30 m/s).
 
